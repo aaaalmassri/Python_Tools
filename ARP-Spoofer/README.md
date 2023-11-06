@@ -42,10 +42,10 @@ To enable packet forwarding on your system, execute the following commands:
 
 - Python 3.11 or later.
 - The `scapy` library is used for crafting and sending ARP packets. You can install it using `pip`:
-  pip install scapy
+  pip install scapy OR python3 -m pip install scapy 
 
 - The `psutil` library is used for retrieving network interface information. You can install it using `pip`:
-  pip install psutil
+  pip install psutil OR pip3 install psutil
 
 
 ## License
