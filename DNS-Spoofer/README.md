@@ -1,7 +1,7 @@
 # DNS Spoof Script Using Scapy
 
-**Author:** Your Name
-**Date:** Date
+**Author:** Abdelrahman Adel
+**Date:** 2021
 **License:** [MIT License](LICENSE)
 
 ## Description
