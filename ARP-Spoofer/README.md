@@ -8,11 +8,13 @@
 
 This Python script utilizes Scapy to perform an ARP (Address Resolution Protocol) spoofing attack. The script manipulates ARP packets to deceive target devices and their corresponding routers into thinking that the attacker's machine is the router. This allows the attacker to intercept and potentially manipulate network traffic between the target and the router.
 
+
 ## How ARP Spoofing Works
 
 1. The script sends ARP response packets to the target with the router's IP address, associating the router's IP with the attacker's MAC address.
 2. Similarly, ARP response packets are sent to the router with the target's IP address, associating the target's IP with the attacker's MAC address.
 3. As a result, both the target and the router believe that the attacker's machine is the other party in the communication.
+
 
 ## Usage
 
@@ -24,6 +26,7 @@ python3.11 arp_spoof.py -I <INTERFACE> -T <TARGET_IP>
 Replace `<INTERFACE>` with the name of your attacker interface and `<TARGET_IP>` with the IP address of the target device.
 
 3. The script will perform ARP spoofing, intercepting network traffic between the target and the router. Use this responsibly and only on networks and devices for which you have permission.
+
 
 ## Forwarding Packets
 
@@ -37,6 +40,7 @@ To enable packet forwarding on your system, execute the following commands:
 
 - Apply the changes:
   sysctl -p /etc/sysctl.conf
+
 
 ## Dependencies
 
