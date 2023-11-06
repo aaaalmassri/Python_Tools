@@ -30,7 +30,9 @@ This Python script serves as a simple network scanner using ARP (Address Resolut
 
 - Python 3.11 or later.
 - The `scapy` library is used for crafting and sending ARP packets. You can install it using `pip`:
+  pip install scapy OR python3 -m pip install scapy
 
+  
 ## License
 
 This script is provided under the terms of the MIT license. Feel free to modify and distribute it as needed.
