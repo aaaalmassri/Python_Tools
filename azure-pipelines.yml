@@ -9,13 +9,6 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 strategy:
-  matrix:
-    Python35:
-      python.version: '3.5'
-    Python36:
-      python.version: '3.6'
-    Python37:
-      python.version: '3.7'
     Python311:
       python.verion: '3.11'
       
