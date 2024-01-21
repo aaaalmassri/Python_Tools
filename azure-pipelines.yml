@@ -9,8 +9,8 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 strategy:
-    Python311:
-      python.verion: '3.11'
+    Python310:
+      python.verion: '3.10'
       
 steps:
 - task: UsePythonVersion@0
