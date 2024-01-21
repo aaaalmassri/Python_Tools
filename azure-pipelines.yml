@@ -9,7 +9,7 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 strategy:
-    Python310:
+    Python31:
       python.verion: '3.10'
       
 steps:
